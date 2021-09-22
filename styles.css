@@ -27,6 +27,7 @@ body {
   border-radius: 20px;
   padding: 0.8rem 1rem;
   color: #fff;
+  text-align: center;
 }
 
 .item {
@@ -69,4 +70,10 @@ border: 3px solid rgb(216, 200, 200)
 
 .hide {
   display: none;
+}
+
+.hovered {
+  border: 1px solid rgb(161, 210, 216);
+  box-shadow: 6px 6px 6px rgba(143, 215, 233, 0.36);
+  border-radius: 20px;
 }
